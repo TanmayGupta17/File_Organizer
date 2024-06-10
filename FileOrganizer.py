@@ -19,10 +19,13 @@ video_extensions = [
     ".qt", ".flv", ".swf", ".avchd"
 ]
 
-# Directories
-source_dir = "/Users/tanmaygupta/Downloads"
-dest_dir_images = "/Users/tanmaygupta/Desktop/Downloaded Images"
-dest_dir_videos = "/Users/tanmaygupta/Desktop/Downloaded Videos"
+# Get the home directory of the current user
+home_dir = os.path.expanduser("~")
+
+# Define source and destination directories relative to the user's home directory
+source_dir = os.path.join(home_dir, "Downloads")
+dest_dir_images = os.path.join(home_dir, "Desktop", "Downloaded Images")
+dest_dir_videos = os.path.join(home_dir, "Desktop", "Downloaded Videos")
 
 # Ensure destination directories exist
 if not exists(dest_dir_images):
