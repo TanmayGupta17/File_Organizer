@@ -1,6 +1,6 @@
 # File_Organizer
 
-The File Organizer is an automated system designed to streamline the process of sorting and organizing files based on their type, such as images and videos. By leveraging the watchdog library, it monitors changes in a specified directory in real-time and automatically moves files to your desired locations.
+The File Organizer is an automated system designed to streamline the process of sorting and organizing files based on their type, such as images and videos. By leveraging the watchdog library, it monitors changes in a specified directory in real-time and automatically moves files to your desired locations.This tool is ideal for anyone looking to maintain an organized file system without manual intervention.
 
 ## Key Features
 ### Automated Sorting:
